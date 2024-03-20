@@ -1,0 +1,175 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 30px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.promanageImg {
+    margin-right: 20px;
+}
+
+.promanagePara {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.parentCenteredDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    height: 90%;
+}
+
+.centeredDiv {
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50vw;
+    border: 2px solid #EDF5FE;
+}
+
+.cardHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    height: 25px;
+}
+
+.leftDiv {
+    display: flex;
+    align-items: center;
+}
+
+.leftDiv img {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.leftDiv p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+}
+
+
+.cardTitle {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.checklistDiv {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.paraDiv {
+    display: flex;
+    font-weight: 500;
+}
+
+.allChecklists {
+    width: 100%;
+    max-height: 65%;
+    overflow: auto;
+}
+
+.lastDiv {
+    display: flex;
+    margin-top: 20px;
+}
+
+.lastDiv span {
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.dateDiv {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    min-width: 65px;
+    background-color: #CF3636;
+    color: white;
+}
+
+
+@media screen and (max-width: 750px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .parentCenteredDiv {
+        padding-top: 20px;
+    }
+
+    .centeredDiv {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .cardHeading {
+        margin-bottom: 10px;
+        height: 25px;
+    }
+
+    .leftDiv p {
+        font-size: 12px;
+        font-weight: 500;
+        color: #707070;
+    }
+
+    .cardTitle {
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+
+    .checklistDiv {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1200px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .parentCenteredDiv {
+        padding-top: 20px;
+    }
+
+    .centeredDiv {
+        padding: 20px;
+        width: 70%;
+    }
+
+    .cardHeading {
+        margin-bottom: 10px;
+        height: 25px;
+    }
+
+    .leftDiv p {
+        font-size: 13px;
+        font-weight: 500;
+        color: #707070;
+    }
+
+    .cardTitle {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .checklistDiv {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+}

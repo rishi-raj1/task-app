@@ -1,0 +1,37 @@
+.container {
+    padding: 7px 15px;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.checkDiv {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #17A2B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+.statusChecked {
+    border: none;
+    background-color: #17A2B8;
+}
+
+.statusNotChecked {
+    border: 2px solid #E2E2E2;
+    background-color: white;
+}
+
+.container p {
+    width: 90%;
+    font-size: 17px;
+    text-align: justify;
+}

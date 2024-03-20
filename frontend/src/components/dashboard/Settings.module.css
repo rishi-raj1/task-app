@@ -1,0 +1,81 @@
+.container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main {
+    padding: 40px;
+    width: 40%;
+}
+
+.settings {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inputDiv {
+    border: 2px solid #D0D0D0;
+    border-radius: 10px;
+    padding: 10px 10px 10px 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.leftImage {
+    margin-right: 15px;
+    width: 23px;
+    height: 23px;
+}
+
+.inputDiv input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 90%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.eye {
+    margin-left: 15px;
+    width: 25px;
+    height: 23px;
+}
+
+.eye:hover,
+.crosseye:hover {
+    cursor: pointer;
+}
+
+.crosseye {
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+}
+
+.buttonsDiv {
+    margin-top: 40px;
+}
+
+.buttonsDiv button {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 15px;
+    background-color: #17A2B8;
+    color: white;
+    font-size: 18px;
+}
+
+.buttonsDiv button:hover {
+    cursor: pointer;
+}
+
+.buttonsDiv button:disabled:hover {
+    cursor: wait;
+}

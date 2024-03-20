@@ -1,0 +1,63 @@
+.container {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centeredDiv {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.centeredDiv p {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.deleteBtn {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    padding: 10px 30px;
+    background-color: #17A2B8;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+}
+
+.deleteBtn:disabled:hover {
+    cursor: wait;
+}
+
+.cancelBtn {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    color: #CF3636;
+    background-color: white;
+    outline: none;
+    border: 1px solid #CF3636;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.cancelBtn:hover {
+    cursor: pointer;
+}

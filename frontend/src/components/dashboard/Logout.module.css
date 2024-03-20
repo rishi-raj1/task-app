@@ -1,0 +1,60 @@
+.container {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303D438C;
+}
+
+.centeredDiv {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.centeredDiv p {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.logoutBtn {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    padding: 10px 30px;
+    background-color: #17A2B8;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.logoutBtn:hover {
+    cursor: pointer;
+}
+
+.cancelBtn {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    color: #CF3636;
+    outline: none;
+    border: 1px solid #CF3636;
+    border-radius: 5px;
+    width: 95%;
+    background-color: white;
+}
+
+.cancelBtn:hover {
+    cursor: pointer;
+}

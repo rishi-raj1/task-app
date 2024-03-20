@@ -1,0 +1,49 @@
+.container {
+    padding: 7px 15px;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkDiv {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.checkDiv:hover {
+    cursor: pointer;
+}
+
+.statusChecked {
+    border: none;
+    background-color: #17A2B8;
+}
+
+.statusNotChecked {
+    border: 2px solid #E2E2E2;
+    background-color: white;
+}
+
+.container input {
+    width: 92%;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.deleteDiv {
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+.deleteDiv:hover {
+    cursor: pointer;
+}

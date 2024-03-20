@@ -1,0 +1,122 @@
+.container {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    position: relative;
+    width: 26vw;
+}
+
+.cardHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.leftDiv {
+    display: flex;
+    align-items: center;
+}
+
+.leftDiv img {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.leftDiv p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.rightDiv {
+    display: flex;
+    position: relative;
+}
+
+.rightDiv img {
+    height: 6px;
+    cursor: pointer;
+}
+
+.fullTitle {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    text-align: justify;
+    position: absolute;
+    top: 80px;
+    width: 80%;
+    display: none;
+    overflow: auto;
+}
+
+
+.cardTitle {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.checklistDiv {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 15px;
+}
+
+.paraDiv {
+    display: flex;
+    font-weight: 500;
+}
+
+.arrowDiv {
+    width: 20px;
+}
+
+.arrowDiv:hover {
+    cursor: pointer;
+}
+
+.allChecklists {
+    width: 100%;
+}
+
+.lastDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dateDiv {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    min-width: 65px;
+}
+
+.allChips {
+    display: flex;
+}
+
+.chips {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #EEECEC;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.chips:hover {
+    cursor: pointer;
+}

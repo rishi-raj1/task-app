@@ -1,0 +1,175 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    background-color: #303D438C;
+}
+
+.centeredDiv {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 30px;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputDiv {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.titlePara {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.titleInput {
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.titleInput::placeholder {
+    color: #9B959F;
+}
+
+.secondDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.priorityPara {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.priorityDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.priorityItem {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.priorityItem:hover {
+    cursor: pointer;
+}
+
+.priorityItem p {
+    color: #767575;
+    font-weight: 500;
+}
+
+.priorityItem img {
+    margin-right: 10px;
+}
+
+.checklistDiv {
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.fixDiv {
+    height: 37vh;
+    width: 100%;
+}
+
+.flexibleDiv {
+    max-height: 75%;
+    overflow-y: auto;
+}
+
+.addNewDiv {
+    width: 120px;
+    color: #767575;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.addNewDiv:hover {
+    cursor: pointer;
+}
+
+.addNewDiv span {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.buttonsDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buttonsDiv button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 190px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.dateBtn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 190px;
+    color: #707070;
+    border: 1px solid #E2E2E2;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.cancelBtn {
+    margin-right: 20px;
+    color: #CF3636;
+    border: 1px solid #CF3636;
+    background-color: white;
+}
+
+.cancelBtn:hover {
+    cursor: pointer;
+}
+
+.saveBtn {
+    background-color: #17A2B8;
+    color: white;
+    border: none;
+}
+
+.saveBtn:hover {
+    cursor: pointer;
+}
+
+.saveBtn:disabled:hover {
+    cursor: wait;
+}
+
+.selected {
+    background-color: #EEECEC;
+}

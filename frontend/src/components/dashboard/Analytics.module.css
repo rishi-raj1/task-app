@@ -1,0 +1,47 @@
+.container {
+    font-family: "Open Sans", sans-serif;
+    padding: 40px 30px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.countDetails {
+    display: flex;
+    margin-left: 40px;
+}
+
+.leftDiv {
+    margin-right: 80px;
+    width: 20vw;
+}
+
+.rightDiv {
+    width: 20vw;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.imageDiv {
+    display: flex;
+    align-items: center;
+}
+
+.line img {
+    margin-right: 10px;
+}
+
+.category {
+    /* margin-right: 10vw; */
+}
+
+.count {
+    font-weight: 600;
+}

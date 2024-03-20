@@ -1,0 +1,144 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.leftDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    background-color: #17A2B8;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: 18%;
+    left: 34.5%;
+    z-index: 0;
+}
+
+
+.baby {
+    z-index: 1;
+}
+
+.welcomePara {
+    font-weight: 600;
+    font-size: 35px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.startPara {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.rightDiv {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.register {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inputDiv {
+    border: 2px solid #D0D0D0;
+    border-radius: 10px;
+    padding: 10px 10px 10px 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.leftImage {
+    margin-right: 15px;
+    width: 23px;
+    height: 23px;
+}
+
+.inputDiv input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 90%;
+}
+
+.eye {
+    margin-left: 15px;
+    width: 25px;
+    height: 23px;
+}
+
+.eye:hover,
+.crosseye:hover {
+    cursor: pointer;
+}
+
+.crosseye {
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+}
+
+.buttonsDiv {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.registerBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    background-color: #17A2B8;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.registerBtn:hover {
+    cursor: pointer;
+}
+
+.registerBtn:disabled:hover {
+    cursor: wait;
+}
+
+.question {
+    margin-bottom: 20px;
+    color: #828282;
+}
+
+.loginBtn {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #17A2B8;
+    border-radius: 40px;
+    color: #17A2B8;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+}

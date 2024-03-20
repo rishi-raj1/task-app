@@ -1,0 +1,79 @@
+.container {
+    width: 80%;
+    padding: 15px 0 20px 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.headingDiv {
+    position: relative;
+}
+
+.welcomeDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 10px 0;
+}
+
+.toastDiv {
+    position: absolute;
+    top: 20px;
+    right: 180px;
+}
+
+.boardDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px 0;
+    height: 74px;
+}
+
+.weekDiv {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.weekDiv p {
+    margin-right: 8px;
+}
+
+.weekDiv img {
+    cursor: pointer;
+}
+
+.allCategory {
+    display: flex;
+    overflow-x: auto;
+}
+
+.categoryDiv {
+    background-color: #EEF2F5;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 20px 15px;
+    height: 70vh;
+
+}
+
+.categoryHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 27vw;
+}
+
+.categoryHeading p {
+    font-weight: 500;
+}
+
+.categoryHeading img:hover {
+    cursor: pointer;
+}
+
+.cardsDiv {
+    height: 90%;
+    overflow-y: auto;
+}
